@@ -27,7 +27,7 @@
 ***************************************************************************************/
 
 //Standard support
-#include <Arduino.h>
+#include "Arduino.h"
 #include <Print.h>
 #if !defined (TFT_PARALLEL_8_BIT) && !defined (RP2040_PIO_INTERFACE)
   #include <SPI.h>
